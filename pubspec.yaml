@@ -1,0 +1,50 @@
+name: weather_app
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.1 <4.0.0"
+
+dependencies:
+  cupertino_icons: # cupertino icons
+  logger: # log events in clear way insted of (print)
+  flutter_screenutil: # make app responsive dio api logging and debugging
+  shared_preferences: # shared preferences persistence key value store
+  location: # for location
+  flutter_launcher_icons: # change app icon
+  flutter_svg: # for svg icons
+  smooth_page_indicator: # for onboarding screen
+  flutter_spinkit: # for loading indicator
+  cached_network_image: # for network image
+  carousel_slider: # for image slider
+  shimmer: # for shimmer effect
+  intl: # for date format
+  step_progress_indicator: # for progress indicator
+  lottie: # for Adobe After Effects animations
+  flutter_animate: # for animation
+
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  adaptive_icon_background: "#6151C3"
+  adaptive_icon_foreground: "assets/images/app_icon_foreground.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/vectors/
+    - assets/data/
